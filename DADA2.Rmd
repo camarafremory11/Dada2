@@ -250,3 +250,9 @@ plot_bar(ps.top20, x="Day", fill="Family") + facet_wrap(~When, scales="free_x")
 #Ce code produit un barplot coloré des 20 familles bactériennes les plus abondantes, montrant leur proportion dans chaque échantillon, séparé en Early et Late.
 #C’est une manière claire de visualiser la composition microbienne et ses variations dans le temps
 ```
+
+
+
+
+
+

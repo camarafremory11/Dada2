@@ -623,37 +623,35 @@ ord.nmds.bray <- ordinate(ps.prop, method="NMDS", distance="bray")
 ```
 
     ## Run 0 stress 0.08043117 
-    ## Run 1 stress 0.08616061 
-    ## Run 2 stress 0.1212044 
-    ## Run 3 stress 0.08616061 
-    ## Run 4 stress 0.09477209 
-    ## Run 5 stress 0.08076336 
-    ## ... Procrustes: rmse 0.01045177  max resid 0.03215697 
-    ## Run 6 stress 0.08076339 
-    ## ... Procrustes: rmse 0.01054445  max resid 0.03245955 
-    ## Run 7 stress 0.08043117 
+    ## Run 1 stress 0.08076338 
+    ## ... Procrustes: rmse 0.01039205  max resid 0.03196208 
+    ## Run 2 stress 0.08076338 
+    ## ... Procrustes: rmse 0.01052623  max resid 0.03240008 
+    ## Run 3 stress 0.09477202 
+    ## Run 4 stress 0.09477102 
+    ## Run 5 stress 0.08616064 
+    ## Run 6 stress 0.08043116 
     ## ... New best solution
-    ## ... Procrustes: rmse 1.159905e-06  max resid 2.755664e-06 
+    ## ... Procrustes: rmse 2.84621e-06  max resid 7.565732e-06 
     ## ... Similar to previous best
-    ## Run 8 stress 0.09477219 
+    ## Run 7 stress 0.08616061 
+    ## Run 8 stress 0.08076339 
+    ## ... Procrustes: rmse 0.01055044  max resid 0.03247737 
     ## Run 9 stress 0.08616061 
-    ## Run 10 stress 0.08043117 
-    ## ... Procrustes: rmse 4.307876e-06  max resid 1.353458e-05 
-    ## ... Similar to previous best
-    ## Run 11 stress 0.08076339 
-    ## ... Procrustes: rmse 0.01054109  max resid 0.03244886 
-    ## Run 12 stress 0.1212044 
-    ## Run 13 stress 0.1212044 
-    ## Run 14 stress 0.08076336 
-    ## ... Procrustes: rmse 0.0104535  max resid 0.03216273 
-    ## Run 15 stress 0.08616061 
-    ## Run 16 stress 0.1274325 
-    ## Run 17 stress 0.08076339 
-    ## ... Procrustes: rmse 0.01054569  max resid 0.03246319 
-    ## Run 18 stress 0.1212044 
-    ## Run 19 stress 0.1010631 
-    ## Run 20 stress 0.09477223 
-    ## *** Best solution repeated 2 times
+    ## Run 10 stress 0.1212044 
+    ## Run 11 stress 0.08076341 
+    ## ... Procrustes: rmse 0.01053629  max resid 0.03243201 
+    ## Run 12 stress 0.1274325 
+    ## Run 13 stress 0.1326155 
+    ## Run 14 stress 0.08616061 
+    ## Run 15 stress 0.132615 
+    ## Run 16 stress 0.08616061 
+    ## Run 17 stress 0.08076337 
+    ## ... Procrustes: rmse 0.0104238  max resid 0.03206403 
+    ## Run 18 stress 0.09477203 
+    ## Run 19 stress 0.1320348 
+    ## Run 20 stress 0.1442021 
+    ## *** Best solution repeated 1 times
 
 ``` r
 #Ce code prépare les données pour comparer les échantillons entre eux en termes de composition microbienne.

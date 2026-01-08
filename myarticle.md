@@ -1,11 +1,27 @@
 R Notebook
 ================
 
-Méthode: Ils ont isolé et identifié la diatomée Actinocyclus sp. ainsi
-que ses bactéries associées par séquençage et microscopie. Ils ont
-ensuite créé une culture axénique puis testé différentes souches
-bactériennes en co-culture pour observer leur effet sur la croissance de
-la diatomée, suivie par cytométrie en flux et analyses statistiques.
+Introduction: Les diatomées sont de minuscules algues qui vivent presque
+partout près de la surface des océans, des lacs et des rivières. Ils
+restent près de la surface car, comme toute plante, ils ont besoin de
+lumière pour produire de l’énergie par le biais du processus de
+photosynthèse Les interactions entre les diatomées et les bactéries
+façonnent la dynamique des communautés microbiennes et ont d’importantes
+implications écologiques, car elles influencent les processus
+biologiques et chimiques qui structurent le réseau trophique marin et
+régissent le cycle biogéochimique. (Falkowski et coll., 1998; Field et
+al., 1998; Liu et coll., 2019; Le Reun et al., 2022).
+
+Les diatomées exsudent du carbone organique dissous (COD) qui alimente
+la croissance des bactéries hétérotrophes, qui reminéralisent ensuite
+ces composés organiques et favorisent ainsi potentiellement la
+production primaire (Azam et Malfatti, 2007; Falkowski et coll., 2008;
+Worden et coll., 2015). Méthode: Ils ont isolé et identifié la diatomée
+Actinocyclus sp. ainsi que ses bactéries associées par séquençage et
+microscopie. Ils ont ensuite créé une culture axénique puis testé
+différentes souches bactériennes en co-culture pour observer leur effet
+sur la croissance de la diatomée, suivie par cytométrie en flux et
+analyses statistiques.
 
 Objectif de l’étude L’étude visait à savoir quelles bactéries stimulent
 la croissance de Actinocyclus, dans quelle mesure et à quel moment du
@@ -1143,49 +1159,44 @@ ord.nmds.bray <- ordinate(ps.prop, method="NMDS", distance="bray")
 ```
 
     ## Run 0 stress 9.484325e-05 
-    ## Run 1 stress 9.898503e-05 
-    ## ... Procrustes: rmse 0.1506286  max resid 0.3786512 
-    ## Run 2 stress 9.279077e-05 
+    ## Run 1 stress 9.60096e-05 
+    ## ... Procrustes: rmse 0.1425865  max resid 0.3928309 
+    ## Run 2 stress 9.876332e-05 
+    ## ... Procrustes: rmse 0.126347  max resid 0.2773483 
+    ## Run 3 stress 9.986314e-05 
+    ## ... Procrustes: rmse 0.1624412  max resid 0.3274154 
+    ## Run 4 stress 9.583582e-05 
+    ## ... Procrustes: rmse 0.1529893  max resid 0.3258017 
+    ## Run 5 stress 8.923059e-05 
     ## ... New best solution
-    ## ... Procrustes: rmse 0.1288594  max resid 0.3826102 
-    ## Run 3 stress 9.798603e-05 
-    ## ... Procrustes: rmse 0.1563821  max resid 0.4620818 
-    ## Run 4 stress 9.995873e-05 
-    ## ... Procrustes: rmse 0.135166  max resid 0.3546293 
-    ## Run 5 stress 9.884681e-05 
-    ## ... Procrustes: rmse 0.1302523  max resid 0.4765318 
-    ## Run 6 stress 9.925992e-05 
-    ## ... Procrustes: rmse 0.1704765  max resid 0.4903445 
-    ## Run 7 stress 9.954868e-05 
-    ## ... Procrustes: rmse 0.1666069  max resid 0.569771 
-    ## Run 8 stress 9.859677e-05 
-    ## ... Procrustes: rmse 0.1576979  max resid 0.6044311 
-    ## Run 9 stress 9.037412e-05 
-    ## ... New best solution
-    ## ... Procrustes: rmse 0.1555195  max resid 0.4242126 
-    ## Run 10 stress 9.991295e-05 
-    ## ... Procrustes: rmse 0.1590981  max resid 0.518736 
-    ## Run 11 stress 0.002649767 
-    ## Run 12 stress 0.003768194 
-    ## Run 13 stress 9.971127e-05 
-    ## ... Procrustes: rmse 0.1533329  max resid 0.4305157 
-    ## Run 14 stress 9.691915e-05 
-    ## ... Procrustes: rmse 0.1494906  max resid 0.5646566 
-    ## Run 15 stress 9.844099e-05 
-    ## ... Procrustes: rmse 0.1455365  max resid 0.4132925 
-    ## Run 16 stress 9.699135e-05 
-    ## ... Procrustes: rmse 0.1653281  max resid 0.5081665 
-    ## Run 17 stress 0.0001578939 
-    ## ... Procrustes: rmse 0.1334865  max resid 0.354065 
-    ## Run 18 stress 9.876605e-05 
-    ## ... Procrustes: rmse 0.1422178  max resid 0.5241245 
-    ## Run 19 stress 9.804671e-05 
-    ## ... Procrustes: rmse 0.1608359  max resid 0.5021806 
-    ## Run 20 stress 9.677262e-05 
-    ## ... Procrustes: rmse 0.1537447  max resid 0.5285269 
+    ## ... Procrustes: rmse 0.16912  max resid 0.3391 
+    ## Run 6 stress 0.0006625016 
+    ## Run 7 stress 0.001453142 
+    ## Run 8 stress 9.809793e-05 
+    ## ... Procrustes: rmse 0.1451854  max resid 0.5024295 
+    ## Run 9 stress 9.878481e-05 
+    ## ... Procrustes: rmse 0.1495625  max resid 0.5008714 
+    ## Run 10 stress 9.686929e-05 
+    ## ... Procrustes: rmse 0.1596715  max resid 0.4876723 
+    ## Run 11 stress 9.537285e-05 
+    ## ... Procrustes: rmse 0.1675366  max resid 0.5186232 
+    ## Run 12 stress 0.002392988 
+    ## Run 13 stress 0.003174344 
+    ## Run 14 stress 9.810123e-05 
+    ## ... Procrustes: rmse 0.09066554  max resid 0.2458781 
+    ## Run 15 stress 9.797073e-05 
+    ## ... Procrustes: rmse 0.1672364  max resid 0.5020523 
+    ## Run 16 stress 0.003431006 
+    ## Run 17 stress 9.938004e-05 
+    ## ... Procrustes: rmse 0.1612936  max resid 0.5118009 
+    ## Run 18 stress 9.759638e-05 
+    ## ... Procrustes: rmse 0.1655431  max resid 0.4996065 
+    ## Run 19 stress 9.937767e-05 
+    ## ... Procrustes: rmse 0.1693515  max resid 0.4672094 
+    ## Run 20 stress 0.002099582 
     ## *** Best solution was not repeated -- monoMDS stopping criteria:
-    ##      3: no. of iterations >= maxit
-    ##     17: stress < smin
+    ##      6: no. of iterations >= maxit
+    ##     14: stress < smin
 
     ## Warning in metaMDS(veganifyOTU(physeq), distance, ...): stress is (nearly)
     ## zero: you may have insufficient data

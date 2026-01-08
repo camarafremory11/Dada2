@@ -2,6 +2,11 @@
 title: "R Notebook"
 output: github_document
 ---
+Introduction:
+Les diatomées sont de minuscules algues qui vivent presque partout près de la surface des océans, des lacs et des rivières. Ils restent près de la surface car, comme toute plante, ils ont besoin de lumière pour produire de l’énergie par le biais du processus de photosynthèse
+Les interactions entre les diatomées et les bactéries façonnent la dynamique des communautés microbiennes et ont d’importantes implications écologiques, car elles influencent les processus biologiques et chimiques qui structurent le réseau trophique marin et régissent le cycle biogéochimique. (Falkowski et coll., 1998; Field et al., 1998; Liu et coll., 2019; Le Reun et al., 2022).
+
+ Les diatomées exsudent du carbone organique dissous (COD) qui alimente la croissance des bactéries hétérotrophes, qui reminéralisent ensuite ces composés organiques et favorisent ainsi potentiellement la production primaire (Azam et Malfatti, 2007; Falkowski et coll., 2008; Worden et coll., 2015).
 Méthode:
 Ils ont isolé et identifié la diatomée Actinocyclus sp. ainsi que ses bactéries associées par séquençage et microscopie. Ils ont ensuite créé une culture axénique puis testé différentes souches bactériennes en co-culture pour observer leur effet sur la croissance de la diatomée, suivie par cytométrie en flux et analyses statistiques.
 
@@ -304,3 +309,5 @@ p <- plot_bar(ps_class_top20, fill = "Class") +
 p
     
 ```
+
+

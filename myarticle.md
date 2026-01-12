@@ -1225,7 +1225,7 @@ des échantillons (exemple : eau, sol, intestin…).
 inclinées, organisation propre). \#Le résultat final est un barplot
 comparatif montrant la structure taxonomique des échantillons en
 fonction de leur source d’isolement. \#on peut voir que dans le plot
-obtenue les différents micro organismes
+obtenue on peut voir le genre des microorganismes present dans le microbiote du cianocyclus 
 
 ``` r
 library(grid)

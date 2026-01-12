@@ -1113,9 +1113,7 @@ ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows=FALSE),
 #Ce code crée un objet phyloseq complet avec tes données :les ASVs et leur abondance,les taxonomies,les métadonnées des échantillons.
 ```
 
-\#Ce graphique montre la diversité interne de chaque échantillon selon deux indices différents, en fonction du source d'isolation et des hotes
-#C’est un moyen simple de visualiser si la diversité microbienne change en fonction des sources d'isolation ou entre groupes.
-#on peut voir que dans le plot obtenue les différents micro organismes dans l'échantillons on peut remarqué que la souche cyanociclus est la plus abondante dans l'échantillon, c'est pourquoi ils l'ont choisi pour étudier son microbiome par ce qu'il etait le plus abondant dans les échantillons prélever 
+\#ce code crée un objet phyloseq complet et prêt à l’analyse en intégrant les séquences d’ADN de chaque ASV (converties en DNAStringSet), les abondances dans chaque échantillon, la taxonomie et les métadonnées. Les noms d’ASVs sont simplifiés en ASV1, ASV2, etc., pour faciliter la manipulation et la lecture. Résultat : un objet structuré contenant toutes les informations nécessaires pour analyser, visualiser et comparer la composition microbienne de tes échantillons.
 
 ``` r
 dna <- Biostrings::DNAStringSet(taxa_names(ps))
@@ -1131,10 +1129,9 @@ ps
     ## tax_table()   Taxonomy Table:    [ 949 taxa by 7 taxonomic ranks ]
     ## refseq()      DNAStringSet:      [ 949 reference sequences ]
 
-\#Ce graphique montre la diversité interne de chaque échantillon selon
-deux indices différents, en fonction du source d’isolation et des hotes
-\#C’est un moyen simple de visualiser si la diversité microbienne change
-en fonction des sources d’isolation ou entre groupes.
+#Ce graphique montre la diversité interne de chaque échantillon selon deux indices différents, en fonction du source d'isolation et des hotes
+#C’est un moyen simple de visualiser si la diversité microbienne change en fonction des sources d'isolation ou entre groupes.
+#on peut voir que dans le plot obtenue les différents micro organismes dans l'échantillons on peut remarqué que la souche cyanociclus est la plus abondante dans l'échantillon, c'est pourquoi ils l'ont choisi pour étudier son microbiome par ce qu'il etait le plus abondant dans les échantillons prélever 
 
 ``` r
 plot_richness(ps, x="isolation_source", measures=c("Shannon", "Simpson"), color="HOST")
